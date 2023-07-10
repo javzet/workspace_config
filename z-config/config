@@ -1,0 +1,7 @@
+Host github.com
+  AddKeysToAgent yes
+  IdentityFile ~/workspace/z-config/github_access
+
+Host gitlab.com
+  AddKeysToAgent yes
+  IdentityFile ~/workspace/z-config/gitlab_access

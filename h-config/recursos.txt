@@ -1,0 +1,18 @@
+--- PARA INSTALAR VARIAS VERSIONES DE NODE ---
+https://ayudalinux.com/como-instalar-multiples-versiones-de-node-js-en-ubuntu/
+
+--- PARA USAR UNA VERSION EN ESPECIAL ---
+nvm use default
+(Usa la version 18)
+
+nvm use tech
+(Usa la version 16)
+
+
+--- PARA INSTALAR ANGULAR 9.1.13 ---
+npm install -g @angular/cli@9.1.13
+
+
+
+--- ES IMPORTANTE DECIRTE QUE LA VERSION QUE DEJE POR DEFECTO FUE ---
+nvm use tech
