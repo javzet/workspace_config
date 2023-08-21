@@ -1,7 +1,11 @@
 dt/**
 quo/**
 quo-h/**
+h-projects/**
 
 !dt/.gitkeep
 !quo/.gitkeep
 !quo-h/.gitkeep
+!h-projects/.gitkeep
+
+.DS_store

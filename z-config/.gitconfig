@@ -1,3 +1,5 @@
 [user]
 	name = Javier Zetina
 	email = javierzetina.z3@gmail.com
+[pull]
+	rebase = false
