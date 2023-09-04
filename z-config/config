@@ -5,3 +5,7 @@ Host github.com
 Host gitlab.com
   AddKeysToAgent yes
   IdentityFile ~/workspace/z-config/gitlab_access
+
+Host bitbucket.org
+  AddKeysToAgent yes
+  IdentityFile ~/workspace/z-config/bitbucket_access

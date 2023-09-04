@@ -6,3 +6,8 @@ Host gitlab.com
   AddKeysToAgent yes
   User git
   IdentityFile ~/workspace/h-config/gitlab-HazaelQuo
+
+Host bitbucket.org-quo
+  AddKeysToAgent yes
+  User git
+  IdentityFile ~/workspace/h-config/bitbucket-quo_access

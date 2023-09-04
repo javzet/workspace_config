@@ -33,6 +33,7 @@ if [ "$1" = "$h_config" ]; then
   # TODO: Reemplzar por un bucle que recorra cada archivo ssh
   ssh-add ~/workspace/h-config/bitbucket-HazaelDesarrollaTech
   ssh-add ~/workspace/h-config/gitlab-HazaelQuo
+  ssh-add ~/workspace/h-config/bitbucket-quo_access
 
   echo Se ha modificado la configuración para HVite
 elif [ "$1" = "$z_config" ]; then
@@ -42,6 +43,7 @@ elif [ "$1" = "$z_config" ]; then
   # TODO: Reemplzar por un bucle que recorra cada archivo ssh
   ssh-add ~/workspace/z-config/gitlab_access
   ssh-add ~/workspace/z-config/github_access
+  ssh-add ~/workspace/z-config/bitbucket_access
 
   echo Se ha modificado la configuración para JZetina
 else
