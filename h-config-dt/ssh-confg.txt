@@ -1,0 +1,11 @@
+Host 192.168.100.41
+    HostName 192.168.100.41
+    User palpatine
+
+Host github.com
+    User git
+    IdentityFile ~/.ssh/github_access
+
+Host gitlab.com
+    User git
+    IdentityFile ~/.ssh/gitlab_access
