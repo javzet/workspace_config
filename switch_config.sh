@@ -22,7 +22,10 @@ if [ "$1" != "$z_config" -a "$1" != "$h_config" -a "$1" != "$dt_config" ]; then
   exit
 fi
 
-rm ~/.ssh/known_hosts
+ssh-add -D
+if [ -f "~/.ssh/known_hosts" ]; then
+  rm ~/.ssh/known_hosts
+fi
 eval "$(ssh-agent -s)"
 
 
