@@ -2,6 +2,7 @@ dt/**
 quo/**
 quo-h/**
 h-projects/**
+test/**
 
 !dt/.gitkeep
 !quo/.gitkeep

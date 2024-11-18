@@ -50,7 +50,7 @@ elif [ "$1" = "$z_config" ]; then
   echo Se ha modificado la configuración para JZetina
 elif [ "$1" = "$dt_config" ]; then
   cp ~/workspace/h-config-dt/config ~/.ssh
-  cp ~/workspace/h-config/.gitconfig ~/
+  cp ~/workspace/h-config-dt/.gitconfig ~/
 
   # TODO: Reemplzar por un bucle que recorra cada archivo ssh
   ssh-add ~/workspace/h-config-dt/bitbucket-HazaelDesarrollaTech
